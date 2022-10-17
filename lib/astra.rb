@@ -7,6 +7,8 @@ Dir.glob(File.join( '**', '*.rb'), base: 'lib').each do |file|
 end
 
 module Astra
-  class Error < StandardError; end
+  class Error < StandardError;
+    puts "shadab"
+  end
   # Your code goes here...
 end
